@@ -1,0 +1,6 @@
+a = int(input("input a: "))
+b = int(input("input b: "))
+for i in range(a, b+1):
+    for j in range(1, i+1):
+        print(i, end=" ")
+    print()
